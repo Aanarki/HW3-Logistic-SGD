@@ -6,7 +6,7 @@ In this assignment you will be predicting income from census data using logistic
 
 First get the assignment by running:
     
-    git clone https://github.com/pjreddie/Logistic-SGD
+    git clone https://github.com/SweetRelish/Logistic-SGD
     cd Logistic-SGD
 
 You will be modifying the file `sgd.py`. Tests for your program are in `test.py`. To test your implementation, run:
@@ -100,7 +100,7 @@ Your final model will be trained on the full training data and run on test data 
 
 Submit your modified `sgd.py` file to the class dropbox here:
 
-[https://catalyst.uw.edu/collectit/assignment/farhadi/37186/150095](https://catalyst.uw.edu/collectit/assignment/farhadi/37186/150095)
+[https://catalyst.uw.edu/collectit/assignment/dhlee4/40217/160683](https://catalyst.uw.edu/collectit/assignment/dhlee4/40217/160683)
 
 
 
