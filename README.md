@@ -6,7 +6,7 @@ In this assignment you will be predicting income from census data using logistic
 
 First get the assignment by running:
     
-    git clone https://github.com/SweetRelish/Logistic-SGD
+    git clone https://github.com/sci2lab/Logistic-SGD.git
     cd Logistic-SGD
 
 You will be modifying the file `sgd.py`. Tests for your program are in `test.py`. To test your implementation, run:
