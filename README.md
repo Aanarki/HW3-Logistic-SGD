@@ -19,7 +19,7 @@ The data is in `adult.data`, it is from the Adult dataset:
 
 [http://www.cs.toronto.edu/~delve/data/adult/adultDetail.html](http://www.cs.toronto.edu/~delve/data/adult/adultDetail.html)
 
-Note: Please use Python 2.7 for the assignment and only modify the `sgd.py` file. This is the only file you will be submitting.
+Note: Please use Python 3.6 for the assignment and only modify the `sgd.py` file. This is the only file you will be submitting.
 
 ### Logistic Function [10 points]###
 
