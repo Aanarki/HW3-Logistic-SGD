@@ -98,9 +98,7 @@ Your final model will be trained on the full training data and run on test data 
 
 ### Submitting ###
 
-Submit your modified `sgd.py` file to the class dropbox here:
-
-[https://catalyst.uw.edu/collectit/assignment/dhlee4/40217/160683](https://catalyst.uw.edu/collectit/assignment/dhlee4/40217/160683)
+Submit your modified `sgd.py` file to the class dropbox on Folio.
 
 
 
