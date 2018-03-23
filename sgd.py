@@ -21,7 +21,6 @@ def predict(model, point):
     return prediction
 
 
-# TODO: Calculate accuracy of predictions on data
 def accuracy(data, predictions):
     correct = 0
     length = len(data)
@@ -59,7 +58,18 @@ def initialize_model(k):
 # TODO: Train model using training data
 def train(data, epochs, rate, lam):
     # epoch just means examining N data points where N is the number of points in your training data
+
+    # The model contains the weights of each measured feature
     model = initialize_model(len(data[0]['features']))
+
+    # Train model using epochs number of random examples
+    for i in range(epochs):
+        # TODO Calculate error for each point and adjust model weights base on gradient error
+
+        # Loss = (Prediction - Truth)^2 + lam * ||model||
+        # (...)^2 -> squared error | lam*len(model) -> loss from regularization
+        loss = (predict(model, data[i]) - data[i]['label'])^2 + lam*len(model)
+
     return model
 
 
